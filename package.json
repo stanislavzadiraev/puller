@@ -1,5 +1,5 @@
 {
-  "name": "pusher",
+  "name": "puller",
   "version": "0.0.1",
   "keywords": [
     "not yet"
@@ -16,12 +16,12 @@
     "url": "https://github.com/stanislavzadiraev/puller/issues"
   },
   "devDependencies": {
-    "pusher": "github:stanislavzadiraev/pusher",
-    "puller": "github:stanislavzadiraev/puller"
+    "puller": "github:stanislavzadiraev/puller",
+    "pusher": "github:stanislavzadiraev/pusher"
   },
   "scripts": {
-    "pusher": "pusher",
-    "puller": "puller"
+    "puller": "puller",
+    "pusher": "pusher"
   },
   "type": "module",
   "main": "dst/index.js",
