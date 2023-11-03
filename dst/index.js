@@ -1,4 +1,5 @@
 const { exec } = require('node:child_process');
+import { readFile, writeFile, cp, rm } from 'node:fs/promises'
 
 const index = () =>
     readFile('package.json')
