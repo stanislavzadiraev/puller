@@ -1,8 +1,6 @@
 import { readFile, writeFile, cp, rm } from 'node:fs/promises'
 
 const index = () =>
-    readFile('package.json')
-        .then(data => JSON.parse(data))
-        .then(json => console.log(json))
+    undefined
 
 export default index
